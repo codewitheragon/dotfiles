@@ -5,6 +5,7 @@ alias la="eza -la --git"
 alias tree="eza --tree --icons --git"
 alias c="clear"
 alias g="git"
+alias glow="glow -p"
 
 # Zoxide (Better cd)
 if command -v zoxide >/dev/null; then
