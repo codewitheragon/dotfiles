@@ -9,10 +9,12 @@ My personal configuration files for a productive development environment.
 - **Tmux**: Enhanced multiplexer setup with intuitive keybindings and popup support.
 - **Git**: Global settings with a secure separation of personal information.
 
-## 🚀 Installation
+## 🚀 Installation & Bootstrapping
+
+This project includes a bootstrap script that installs Homebrew (if missing), all necessary CLI tools via a `Brewfile`, and sets up your symlinks.
 
 > [!WARNING]
-> This script will back up your existing configuration files to `~/.dotfiles_backup/` before creating symbolic links.
+> The script will back up your existing configuration files to `~/.dotfiles_backup/` before creating symbolic links.
 
 1. Clone the repository:
    ```bash
@@ -24,10 +26,15 @@ My personal configuration files for a productive development environment.
    cd ~/dev/dotfiles
    ```
 
-3. Run the installation script:
+3. Run the bootstrap script:
    ```bash
    ./install.sh
    ```
+
+## 🛠️ Dependencies
+
+The `install.sh` script automatically installs the following via Homebrew:
+- `neovim`, `tmux`, `zoxide`, `fzf`, `ripgrep`, `eza`, `bat`, `fd`
 
 ## 🔒 Privacy & Local Configuration
 
