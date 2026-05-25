@@ -8,6 +8,7 @@ My personal configuration files for a productive development environment.
 - **Neovim**: A Lua-based configuration (LazyVim inspired) focused on Go and web development.
 - **Tmux**: Enhanced multiplexer setup with intuitive keybindings and popup support.
 - **Git**: Global settings with a secure separation of personal information.
+- **Yazi**: Blazing fast terminal file manager written in Rust, based on async I/O.
 
 ## 🚀 Installation & Bootstrapping
 
@@ -34,7 +35,7 @@ This project includes a bootstrap script that installs Homebrew (if missing), al
 ## 🛠️ Dependencies
 
 The `install.sh` script automatically installs the following via Homebrew:
-- `neovim`, `tmux`, `zoxide`, `fzf`, `ripgrep`, `eza`, `bat`, `fd`
+- `neovim`, `tmux`, `yazi`, `zoxide`, `fzf`, `ripgrep`, `eza`, `bat`, `fd`
 
 ## 🔒 Privacy & Local Configuration
 

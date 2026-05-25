@@ -42,6 +42,7 @@ echo "🔗 Creating symlinks..."
 link_file "$DOTFILES_DIR/git/gitconfig" "$HOME/.gitconfig"
 link_file "$DOTFILES_DIR/tmux/tmux.conf" "$HOME/.tmux.conf"
 link_file "$DOTFILES_DIR/nvim" "$HOME/.config/nvim"
+link_file "$DOTFILES_DIR/yazi" "$HOME/.config/yazi"
 
 if [ -f "$DOTFILES_DIR/zsh/zshrc" ]; then
     link_file "$DOTFILES_DIR/zsh/zshrc" "$HOME/.zshrc"
