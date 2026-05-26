@@ -1,0 +1,11 @@
+font-family = "JetBrainsMono Nerd Font"
+font-size = 13.5
+theme=tomorrow-night
+window-decoration = false
+
+# Low strain theme
+theme = Gruvbox Dark
+
+# Text padding
+window-padding-x = 10
+window-padding-y = 10

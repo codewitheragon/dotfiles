@@ -4,6 +4,7 @@ My personal configuration files for a productive development environment.
 
 ## 📦 Included Configurations
 
+- Ghostty: Terminal emulator
 - **Zsh**: Custom aliases, environment variables, and plugin management.
 - **Neovim**: A Lua-based configuration (LazyVim inspired) focused on Go and web development.
 - **Tmux**: Enhanced multiplexer setup with intuitive keybindings and popup support.
